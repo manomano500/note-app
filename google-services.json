@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "187612805868",
+    "firebase_url": "https://chatapp-93e73-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-93e73",
+    "storage_bucket": "chatapp-93e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187612805868:android:594e57263d9b93a57183c9",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnIaO1oo0qJMlMjKQk5gQt6n6jQhtt-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187612805868:android:df1c8a44326d707d7183c9",
+        "android_client_info": {
+          "package_name": "com.example.sqlliteproject1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnnIaO1oo0qJMlMjKQk5gQt6n6jQhtt-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
