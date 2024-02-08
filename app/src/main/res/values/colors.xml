@@ -11,10 +11,18 @@
 
     <color name="white">#FFFFFF</color>
   <color name="black">#000000</color>
-  <color name="blue">#607298</color>
+  <color name="blue">#8296C1</color>
 
   <color name="background">#E5E5E5</color>
   <color name="yellow">#F2DAA44D</color>
+
+
+//notes colors
+  <color name="defaultNoteColorForNotes">#F2DCB838</color>
+  <color name="sky">#4B75CA</color>
+  <color name="orange">#EF6C00</color>
+  <color name="green">#33CC3B</color>
+  <color name="red">#C62828</color>
 
 
 </resources>

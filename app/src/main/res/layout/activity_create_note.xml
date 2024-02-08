@@ -60,7 +60,17 @@ android:background="@color/white"
 
 
         >
+        <TextView
 
+            android:id="@+id/dateinput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textColor="@color/blue"
+
+            android:textSize="15dp" />
         <EditText
 
             android:id="@+id/titleinput"
@@ -73,6 +83,8 @@ android:background="@color/white"
 
             android:background="@color/white"
 />
+
+
 
         <EditText
             android:id="@+id/conentinput"

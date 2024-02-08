@@ -1,17 +1,23 @@
 package com.example.sqlliteproject1.models;
 
-import android.icu.text.SimpleDateFormat;
 import android.text.format.DateUtils;
 
-import java.util.Date;
+import com.example.sqlliteproject1.R;
 
-public class Note {
+import java.io.Serializable;
+
+public class Note implements Serializable {
 
 
 
     private int id;
     private String title;
     private String content;
+    private int color;
+    private static final int DEFAULT_COLOR_RES_ID = NoteColor.YELLOW.getColorResId();
+
+
+
 
 
 
@@ -24,6 +30,14 @@ public class Note {
         this.title = title;
         this.content = content;
         this.timestamp = System.currentTimeMillis(); // Set the current time as the timestamp
+
+    }
+    public Note(String title, String content,Long timestamp) {
+
+        this.title = title;
+        this.content = content;
+        this.timestamp = timestamp;
+        this.color = DEFAULT_COLOR_RES_ID;// Set the current time as the timestamp
 
     }
 
@@ -50,6 +64,9 @@ public class Note {
 
         return timeAgo.toString();
     }
+    public int getColor() {
+        return color;
+    }
     public void setTitle(String title) {
         this.title = title;
     }
@@ -62,6 +79,9 @@ public class Note {
     }
     public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
+    }
+    public void setColor(int color) {
+        this.color = color;
     }
 
 }

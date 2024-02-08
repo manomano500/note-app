@@ -1,5 +1,5 @@
 <!-- res/drawable/divider.xml -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <size android:height="12dp" />  <!-- Adjust the height as needed -->
+    <size android:height="8dp" />  <!-- Adjust the height as needed -->
     <solid android:color="@android:color/transparent" /> <!-- Set the color of the divider -->
 </shape>
